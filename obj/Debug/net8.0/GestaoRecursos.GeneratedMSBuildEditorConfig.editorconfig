@@ -1,0 +1,287 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GestaoRecursos
+build_property.RootNamespace = GestaoRecursos
+build_property.ProjectDir = /Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Compra/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHJhL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Compra/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHJhL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Compra/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHJhL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Compra/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHJhL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Compra/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcHJhL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Fornecedores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybmVjZWRvcmVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Fornecedores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybmVjZWRvcmVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Fornecedores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybmVjZWRvcmVzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Fornecedores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybmVjZWRvcmVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Fornecedores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybmVjZWRvcmVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/LancamentosProducao/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuY2FtZW50b3NQcm9kdWNhby9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/LancamentosProducao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuY2FtZW50b3NQcm9kdWNhby9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/LancamentosProducao/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuY2FtZW50b3NQcm9kdWNhby9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/LancamentosProducao/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuY2FtZW50b3NQcm9kdWNhby9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/LancamentosProducao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuY2FtZW50b3NQcm9kdWNhby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/ListasTecnicas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlzdGFzVGVjbmljYXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/ListasTecnicas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlzdGFzVGVjbmljYXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/ListasTecnicas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlzdGFzVGVjbmljYXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/ListasTecnicas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlzdGFzVGVjbmljYXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/ListasTecnicas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlzdGFzVGVjbmljYXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/PerfilUsuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyZmlsVXN1YXJpb3MvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/PerfilUsuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyZmlsVXN1YXJpb3MvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/PerfilUsuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyZmlsVXN1YXJpb3MvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/PerfilUsuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyZmlsVXN1YXJpb3MvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/PerfilUsuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyZmlsVXN1YXJpb3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Produto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0by9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Produto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0by9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Produto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0by9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Produto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0by9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Produto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0by9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Relatorios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVsYXRvcmlvcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Relatorios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVsYXRvcmlvcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Relatorios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVsYXRvcmlvcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Relatorios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVsYXRvcmlvcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Relatorios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVsYXRvcmlvcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/TipoProduto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb1Byb2R1dG8vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/TipoProduto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb1Byb2R1dG8vRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/TipoProduto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb1Byb2R1dG8vRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/TipoProduto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb1Byb2R1dG8vRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/TipoProduto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb1Byb2R1dG8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Venda/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGEvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Venda/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGEvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Venda/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGEvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Venda/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGEvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Venda/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGEvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jessicahora/Documents/faculdade/pmv-ads-2024-1-e2-proj-int-t1-gestao-de-recursos/src/GestaoRecursos/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-evdcpbtl3q
