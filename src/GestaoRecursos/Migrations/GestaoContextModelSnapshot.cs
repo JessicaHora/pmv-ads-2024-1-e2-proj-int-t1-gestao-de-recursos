@@ -22,6 +22,95 @@ namespace GestaoRecursos.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("GestaoRecursos.Models.Fornecedor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Ativo")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("DataAlteracao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DataCriacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Telefone")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Fornecedores");
+                });
+
+            modelBuilder.Entity("GestaoRecursos.Models.LancamentoProducao", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ListaTecnicaId")
+                        .HasColumnType("int");
+
+                    b.Property<float>("Quantidade")
+                        .HasColumnType("real");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ListaTecnicaId");
+
+                    b.ToTable("LancamentoProducao");
+                });
+
+            modelBuilder.Entity("GestaoRecursos.Models.ListaTecnica", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Ativo")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("DataAlteracao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DataCriacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("MateriaPrimaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProdutoId")
+                        .HasColumnType("int");
+
+                    b.Property<float>("Quantidade")
+                        .HasColumnType("real");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MateriaPrimaId");
+
+                    b.HasIndex("ProdutoId", "MateriaPrimaId")
+                        .IsUnique();
+
+                    b.ToTable("ListasTecnicas");
+                });
+
             modelBuilder.Entity("GestaoRecursos.Models.PerfilUsuario", b =>
                 {
                     b.Property<int>("Id")
@@ -73,11 +162,14 @@ namespace GestaoRecursos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("IdentityUserId")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PerfilUsuarioId")
+                    b.Property<int?>("PerfilUsuarioId")
                         .HasColumnType("int");
 
                     b.Property<string>("Senha")
@@ -88,7 +180,7 @@ namespace GestaoRecursos.Migrations
 
                     b.HasIndex("PerfilUsuarioId");
 
-                    b.ToTable("Usuarios", (string)null);
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -306,6 +398,9 @@ namespace GestaoRecursos.Migrations
                     b.Property<DateTime?>("DataCriacao")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("FornecedorId")
+                        .HasColumnType("int");
+
                     b.Property<int>("ProdutoId")
                         .HasColumnType("int");
 
@@ -314,9 +409,11 @@ namespace GestaoRecursos.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("FornecedorId");
+
                     b.HasIndex("ProdutoId");
 
-                    b.ToTable("Compra", (string)null);
+                    b.ToTable("Compra");
                 });
 
             modelBuilder.Entity("Models.Produto", b =>
@@ -347,7 +444,7 @@ namespace GestaoRecursos.Migrations
 
                     b.HasIndex("TipoProdutoId");
 
-                    b.ToTable("Produtos", (string)null);
+                    b.ToTable("Produtos");
                 });
 
             modelBuilder.Entity("Models.TipoProduto", b =>
@@ -364,7 +461,7 @@ namespace GestaoRecursos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TipoProdutos", (string)null);
+                    b.ToTable("TipoProdutos");
                 });
 
             modelBuilder.Entity("Models.Venda", b =>
@@ -398,7 +495,37 @@ namespace GestaoRecursos.Migrations
 
                     b.HasIndex("ProdutoId");
 
-                    b.ToTable("Venda", (string)null);
+                    b.ToTable("Venda");
+                });
+
+            modelBuilder.Entity("GestaoRecursos.Models.LancamentoProducao", b =>
+                {
+                    b.HasOne("GestaoRecursos.Models.ListaTecnica", "ListaTecnica")
+                        .WithMany("LancamentosProducao")
+                        .HasForeignKey("ListaTecnicaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ListaTecnica");
+                });
+
+            modelBuilder.Entity("GestaoRecursos.Models.ListaTecnica", b =>
+                {
+                    b.HasOne("Models.Produto", "MateriaPrima")
+                        .WithMany()
+                        .HasForeignKey("MateriaPrimaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Models.Produto", "Produto")
+                        .WithMany("ListasTecnicas")
+                        .HasForeignKey("ProdutoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("MateriaPrima");
+
+                    b.Navigation("Produto");
                 });
 
             modelBuilder.Entity("GestaoRecursos.Models.Usuario", b =>
@@ -406,8 +533,7 @@ namespace GestaoRecursos.Migrations
                     b.HasOne("GestaoRecursos.Models.PerfilUsuario", "PerfilUsuario")
                         .WithMany("Usuarios")
                         .HasForeignKey("PerfilUsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("PerfilUsuario");
                 });
@@ -465,11 +591,19 @@ namespace GestaoRecursos.Migrations
 
             modelBuilder.Entity("Models.Compra", b =>
                 {
+                    b.HasOne("GestaoRecursos.Models.Fornecedor", "Fornecedor")
+                        .WithMany("Compras")
+                        .HasForeignKey("FornecedorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Models.Produto", "Produto")
                         .WithMany("Compras")
                         .HasForeignKey("ProdutoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Fornecedor");
 
                     b.Navigation("Produto");
                 });
@@ -496,6 +630,16 @@ namespace GestaoRecursos.Migrations
                     b.Navigation("Produto");
                 });
 
+            modelBuilder.Entity("GestaoRecursos.Models.Fornecedor", b =>
+                {
+                    b.Navigation("Compras");
+                });
+
+            modelBuilder.Entity("GestaoRecursos.Models.ListaTecnica", b =>
+                {
+                    b.Navigation("LancamentosProducao");
+                });
+
             modelBuilder.Entity("GestaoRecursos.Models.PerfilUsuario", b =>
                 {
                     b.Navigation("Usuarios");
@@ -504,6 +648,8 @@ namespace GestaoRecursos.Migrations
             modelBuilder.Entity("Models.Produto", b =>
                 {
                     b.Navigation("Compras");
+
+                    b.Navigation("ListasTecnicas");
 
                     b.Navigation("Vendas");
                 });

@@ -5,25 +5,25 @@
 namespace GestaoRecursos.Migrations
 {
     /// <inheritdoc />
-    public partial class fix_venda : Migration
+    public partial class addIdentityIdusuario : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<int>(
-                name: "Quantidade",
-                table: "Venda",
-                type: "int",
-                nullable: false,
-                defaultValue: 0);
+            migrationBuilder.AddColumn<string>(
+                name: "IdentityUserId",
+                table: "Usuarios",
+                type: "nvarchar(max)",
+                nullable: true,
+                defaultValue: "");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "Quantidade",
-                table: "Venda");
+                name: "IdentityUserId",
+                table: "Usuarios");
         }
     }
 }
