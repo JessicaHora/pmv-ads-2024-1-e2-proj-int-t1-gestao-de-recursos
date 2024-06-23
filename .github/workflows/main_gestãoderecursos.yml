@@ -21,6 +21,10 @@ jobs:
         with:
           dotnet-version: '8.x'
           include-prerelease: true
+          
+      - name: Change directory yml
+        run: cd src/GestaoRecursos
+          
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
